@@ -168,7 +168,7 @@ footer .display5{
 
 
 /*MOBILE*/
-@media screen and (max-width:550px) {
+@media screen and (max-width:375px) and (max-width:550px) {
     .first-sect{
         background-image: url("images/bg-hero-mobile.svg");
     }
@@ -177,6 +177,9 @@ footer .display5{
     }
     .header img{
         width: 60%;
+    }
+    .header button{
+        width:70%;
     }
     .display{
         grid-template-columns: 1fr;
